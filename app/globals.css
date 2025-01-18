@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components {
     .show-between-sizes {
         
@@ -12,4 +13,24 @@
             display: block; /* Div wird nur in diesem Bereich angezeigt */
         }
     }
+}
+
+.font-graffiti {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+.text-outline {
+    text-shadow: 
+      -1px -1px 2px #000,  /* Kleinere Schatten */
+       1px -1px 2px #000,
+      -1px  1px 2px #000,
+       1px  1px 2px #000,
+      0 0 5px #9b59b6,  /* Lila Schimmer */
+      0 0 10px #9b59b6;
+    color: black;         /* Schwarze Schriftfarbe */
+}
+
+.text-outline-stroke {
+    -webkit-text-stroke: 1px #9b59b6; /* Dünnerer Rand */
+    color: black;                    /* Schwarze Schriftfarbe */
 }
