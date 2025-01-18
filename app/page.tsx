@@ -7,8 +7,6 @@ import Introduction from "./components/introduction";
 import Imagestop from "./components/imagestop";
 import Speisekarte from "./components/speisekarte";
 
-import Imagesbottom from "./components/imagesbottom";
-
 import Kontakt from "./components/kontakt";
 import Googlemaps from "./components/googlemaps";
 
@@ -22,7 +20,6 @@ export default function Home() {
         <Introduction />
         <Imagestop />
         <Speisekarte />
-        <Imagesbottom />
         <Kontakt />
         <Googlemaps />
         <Catering />

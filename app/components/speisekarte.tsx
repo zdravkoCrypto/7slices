@@ -35,13 +35,16 @@ export default function Speisekarte() {
                   rounded-xl bg-black text-[#9b59b6] p-4
                 ">SPEISEKARTE ANSEHEN</button>
                 </div>
-                <Image 
-                src="/pizzaelements.png"  // Bildpfad (kann lokal oder extern sein)
-                alt=""
-                width={500}  // Bildbreite
-                height={250} // Bildhöhe
-                className="show-between-sizes mt-12"
-              />
+                <div className="flex w-full">
+                  <Image 
+                    src="/pizzaelements.png"  // Bildpfad (kann lokal oder extern sein)
+                    alt=""
+                    width={500}  // Bildbreite
+                    height={250} // Bildhöhe
+                    className="show-between-sizes mt-12"
+                  />
+                </div>
+                
             </div>
         </div>
     </div>
