@@ -20,8 +20,8 @@ export default function navigation() {
                   />
                 </div>
                 <div className="flex justify-between px-12 p-3">
-                  <FiInstagram className="text-xl mr-4 text-white" />
-                  <FaTiktok className="text-xl text-white" />
+                  <FiInstagram className="text-2xl mr-4 text-white" />
+                  <FaTiktok className="text-2xl text-white" />
                 </div>
             </div>
         </div>
