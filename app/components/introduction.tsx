@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import { useState, useEffect } from 'react';
 
-function introduction() {
+function Introduction() {
   const [windowSize, setWindowSize] = useState({
     width: 0,
     height: 0
@@ -65,4 +65,4 @@ function introduction() {
     </div>
   )
 }
-export default introduction
+export default Introduction
