@@ -47,7 +47,7 @@ function Introduction() {
                   auf Qualität zu verzichten.
                 </span>
 
-                <span className="show-between-sizes mt-2 text-[#9b59b6] italic text-xs font-bold">~ Geschäftsführer Phillipp</span>
+                <span className="show-between-sizes mt-2 text-[#9b59b6] italic text-xs font-bold">~ Phillipp 7 Slices</span>
             </div>
 
             <div className="flex show-between-sizes justify-center items-center w-full flex-grow p-6">
