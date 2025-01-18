@@ -59,8 +59,6 @@ function Introduction() {
                   className="show-between-sizes"
                 />
             </div>
-            <p className="text-lg">Breite: {windowSize.width} px</p>
-            <p className="text-lg">Höhe: {windowSize.height} px</p>
         </div>
     </div>
   )

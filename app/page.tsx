@@ -8,7 +8,6 @@ import Imagestop from "./components/imagestop";
 import Speisekarte from "./components/speisekarte";
 
 import Kontakt from "./components/kontakt";
-import Googlemaps from "./components/googlemaps";
 
 import Catering from "./components/catering";
 import Rechtlichesbottom from "./components/rechtlichesbottom";
@@ -21,7 +20,6 @@ export default function Home() {
         <Imagestop />
         <Speisekarte />
         <Kontakt />
-        <Googlemaps />
         <Catering />
         <Rechtlichesbottom />
     </div>
