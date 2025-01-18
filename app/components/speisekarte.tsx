@@ -31,7 +31,7 @@ export default function Speisekarte() {
                 </span>
                 <div className="mt-4">
                   <button className="
-                  italic font-semibold text-xs
+                  italic font-semibold text-xs show-between-sizes
                   rounded-xl bg-black text-[#9b59b6] p-4
                 ">SPEISEKARTE ANSEHEN</button>
                 </div>
