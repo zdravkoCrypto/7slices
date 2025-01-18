@@ -2,7 +2,35 @@
 
 import Image from 'next/image'
 
+import { useState, useEffect } from 'react';
+
 function introduction() {
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0
+  });
+
+  useEffect(() => {
+    // Funktion zum Aktualisieren der Fenstergröße
+    const updateWindowSize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    };
+
+    // Initiale Fenstergröße festlegen
+    updateWindowSize();
+
+    // Event Listener hinzufügen, um die Größe bei Fensteränderung zu aktualisieren
+    window.addEventListener('resize', updateWindowSize);
+
+    // Aufräumen des Event Listeners
+    return () => {
+      window.removeEventListener('resize', updateWindowSize);
+    };
+  }, []);
+
   return (
     <div className="flex w-full">
         <div className="flex flex-col show-between-sizes w-full flex-grow">
@@ -31,6 +59,8 @@ function introduction() {
                   className="show-between-sizes"
                 />
             </div>
+            <p className="text-lg">Breite: {windowSize.width} px</p>
+            <p className="text-lg">Höhe: {windowSize.height} px</p>
         </div>
     </div>
   )
