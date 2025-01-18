@@ -1,5 +1,4 @@
 import Navigation from "./components/navigation";
-import Couponwheel from "./components/couponwheel";
 
 import Introduction from "./components/introduction";
 
@@ -18,7 +17,6 @@ export default function Home() {
   return (
     <div className="flex flex-col">
         <Navigation />
-        <Couponwheel />
         <Introduction />
         <Imagestop />
         <Speisekarte />
