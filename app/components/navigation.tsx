@@ -16,6 +16,7 @@ export default function navigation() {
                     alt=""
                     width={75}  // Bildbreite
                     height={50} // Bildhöhe
+                    className="ml-8"
                   />
                 </div>
                 <div className="flex justify-between px-12 p-3">
