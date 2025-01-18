@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+    .show-between-sizes {
+        
+        display: none; /* Standard: Das Div ist ausgeblendet */
+    
+        /* Breiten- und Höhenbereich */
+        @media (min-width: 360px) and (max-width: 430px) and (min-height: 667px) and (max-height: 932px) {
+            display: block; /* Div wird nur in diesem Bereich angezeigt */
+        }
+    }
 }

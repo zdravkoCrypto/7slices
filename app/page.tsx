@@ -1,9 +1,32 @@
+import Navigation from "./components/navigation";
+import Couponwheel from "./components/couponwheel";
 
+import Introduction from "./components/introduction";
+
+import Imagestop from "./components/imagestop";
+import Speisekarte from "./components/speisekarte";
+
+import Imagesbottom from "./components/imagesbottom";
+
+import Kontakt from "./components/kontakt";
+import Googlemaps from "./components/googlemaps";
+
+import Catering from "./components/catering";
+import Rechtlichesbottom from "./components/rechtlichesbottom";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1 className="text-2xl font-semibold">7 Slices</h1>
+    <div className="flex flex-col">
+        <Navigation />
+        <Couponwheel />
+        <Introduction />
+        <Imagestop />
+        <Speisekarte />
+        <Imagesbottom />
+        <Kontakt />
+        <Googlemaps />
+        <Catering />
+        <Rechtlichesbottom />
     </div>
   );
 }
