@@ -5,12 +5,20 @@
 
 @layer components {
     .show-between-sizes {
-        
         display: none; /* Standard: Das Div ist ausgeblendet */
     
         /* Breiten- und Höhenbereich */
         @media (min-width: 360px) and (max-width: 430px) and (min-height: 630px) and (max-height: 932px) {
             display: block; /* Div wird nur in diesem Bereich angezeigt */
+        }
+    }
+
+    .show-bigger-screen {
+        display: none; /* Standard: Das Div ist ausgeblendet */
+
+        /* Anzeige, wenn `.show-between-sizes` nicht aktiv ist */
+        @media not all and (min-width: 360px) and (max-width: 430px) and (min-height: 630px) and (max-height: 932px) {
+            display: block; /* Div wird angezeigt, wenn `.show-between-sizes` nicht aktiv ist */
         }
     }
 }

@@ -12,9 +12,12 @@ import Kontakt from "./components/kontakt";
 import Catering from "./components/catering";
 import Rechtlichesbottom from "./components/rechtlichesbottom";
 
+import MobileOnly from "./components/MobileOnly";
+
 export default function Home() {
   return (
     <div className="flex flex-col">
+        <MobileOnly />
         <Navigation />
         <Introduction />
         <Imagestop />
