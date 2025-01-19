@@ -6,6 +6,16 @@ import { FaTiktok } from "react-icons/fa";
 import Image from 'next/image'
 
 export default function navigation() {
+  const openInstagram = () => {
+    const instagramURL = "https://www.instagram.com/7slices_?igsh=Zmt1MGloZ3kwazRu"; // Dein Instagram-Link
+    window.open(instagramURL, "_blank", "noopener,noreferrer");
+  };
+
+  const opentiktok = () => {
+    const instagramURL = "https://www.tiktok.com/@7slices_?_t=ZN-8tCfIQpL3Ru&_r=1"; // Dein Instagram-Link
+    window.open(instagramURL, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="flex w-full">
         <div className="show-between-sizes w-full bg-black">
@@ -20,8 +30,8 @@ export default function navigation() {
                   />
                 </div>
                 <div className="flex justify-between px-12 p-3">
-                  <FiInstagram className="text-2xl mr-4 text-white" />
-                  <FaTiktok className="text-2xl text-white" />
+                  <FiInstagram onClick={openInstagram} className="text-2xl mr-4 text-white" />
+                  <FaTiktok onClick={opentiktok} className="text-2xl text-white" />
                 </div>
             </div>
         </div>

@@ -3,6 +3,11 @@
 import Image from 'next/image'
 
 export default function Speisekarte() {
+  const openPDF = () => {
+    const pdfURL = "/7slices.pdf"; // Relativer Pfad zur PDF-Datei
+    window.open(pdfURL, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <div className="flex w-full">
         <div className="flex flex-col justify-center items-center show-between-sizes w-full flex-grow">
@@ -33,7 +38,7 @@ export default function Speisekarte() {
                   <button className="
                   italic font-semibold text-xs show-between-sizes
                   rounded-xl bg-black text-[#9b59b6] p-4
-                ">SPEISEKARTE ANSEHEN</button>
+                " onClick={openPDF}>SPEISEKARTE ANSEHEN</button>
                 </div>
                 <div className="flex w-full">
                   <Image 
