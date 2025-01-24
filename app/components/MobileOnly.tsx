@@ -18,6 +18,7 @@ export default function MobileOnly() {
         // Beim ersten Render die Größe prüfen
         checkScreenSize();
 
+        
         // Event-Listener für Fenstergröße
         window.addEventListener("resize", checkScreenSize);
 
