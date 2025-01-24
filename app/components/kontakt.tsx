@@ -10,7 +10,7 @@ export default function Kontakt() {
                 <h1 className="show-between-sizes text-2xl font-semibold text-white">KONTAKT</h1>
                 <FaLocationDot className="show-between-sizes text-2xl mt-6 text-white" />
                 <h1 className="show-between-sizes font-semibold text-white mt-2">ADRESSE</h1>
-                <span className="show-between-sizes font-semibold text-white mt-2">Mariahilfer Straße 151 1150 Wien</span>
+                <span className="show-between-sizes font-semibold text-white mt-2">Rosa-Luxemburg-Straße 20, 16727 Velten</span>
             </div>
             <div className="show-between-sizes flex flex-col justify-center items-center mt-6">
               <CiClock1 className="show-between-sizes text-2xl mt-6 text-white" />

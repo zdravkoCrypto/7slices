@@ -10,12 +10,14 @@ function Introduction() {
                 <h1 className="show-between-sizes text-xl font-graffiti text-outline text-outline-stroke">PASSIONE</h1>
 
                 <span className="show-between-sizes italic font-semibold text-xs mt-4 ml-2">
-                  .. bedeutet Leidenschafft für Pizza. Genau unter diesem
-                  Motto kreieren wir all unsere Pizzen. Wir verwenden dabei
-                  nicht nur die besten Zutaten, wir versuchen auch den alten
-                  klassikern einen frischen Twist zu geben. Bei 7 Slices
-                  können wir sie an jedem Standort mit Qualität bedienen, ohne
-                  auf Qualität zu verzichten.
+                  Herzlich willkommen bei 7Slices! 
+                  Wir sind ein familiengeführter Pizza-Trailer,
+                  der mit Liebe zum Detail und handgemachtem Teig
+                  echte Gaumenfreuden bietet. Frische Zutaten und
+                  sorgfältige Zubereitung stehen bei uns an erster 
+                  Stelle. Ob an unserem Verkaufsstand, bei einer 
+                  Feier oder einfach unterwegs - wir freuen uns, 
+                  Ihnen ein einzigartiges Geschmackserlebnis zu bieten.
                 </span>
 
                 <span className="show-between-sizes mt-2 text-[#9b59b6] italic text-xs font-bold">~ Phillipp 7 Slices</span>
