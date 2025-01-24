@@ -15,7 +15,7 @@ export default function Rechtlichesbottom() {
           <span className="show-between-sizes ml-4 mt-4 text-xs font-semibold text-white">Impressum Angaben gemäß § 5 TMG
           </span>
           <span className="show-between-sizes ml-4 mt-2 text-xs font-semibold text-[#c7c5bb]">7slices </span>
-          <span className="show-between-sizes ml-4 mt-2 text-xs font-semibold text-[#c7c5bb]">Rauchschwalbenweg 916727 Oberkrämer</span>
+          <span className="show-between-sizes ml-4 mt-2 text-xs font-semibold text-[#c7c5bb]">Rauchschwalbenweg 9 16727 Oberkrämer</span>
 
           <span className="show-between-sizes ml-4 mt-4 text-xs font-semibold text-[#c7c5bb]">Telefon: 0176 41239568</span>
           <span className="show-between-sizes ml-4 mt-2 text-xs font-semibold text-[#c7c5bb]">E-Mail: info@sevenslices.de</span>
